@@ -5,8 +5,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screen:{
-      'pho' : '400px',
+    screens:{
+      'pho': '300px',
 
       'ipad': '550px',
 
