@@ -8,8 +8,8 @@ export default function Header() {
         <div className=''>
             <div className='bg-[#3F3F3F] text-white '>
                 <div
-                    className='max-w-[1440px] m-auto flex lg:justify-between items-center px-3 flex-wrap  py-2 pho:justify-center gap-4 '>
-                    <div className='flex items-center gap-2 lg:py-[9.5px]'><i className="fa-solid fa-location-dot"></i>
+                    className='max-w-[1440px] m-auto sm:flex-row lg:justify-between items-center px-3 flex-wrap  py-2 flex  flex-col justify-center ipad:gap-4 '>
+                    <div className='flex items-center gap-2 lg:pt-[9.5px]'><i className="fa-solid fa-location-dot"></i>
                         <p>Алматы</p></div>
                     <p>Бесплатная доставка заказов до конца декабря!</p>
                 </div>
@@ -39,9 +39,11 @@ export default function Header() {
 
 
                     <div className='flex items-center gap-3 '>
-                        <i className="fa-solid fa-bars pho:flex lg:hidden px-2"></i>
                         <i className="fa-solid fa-cart-shopping bg-[#4CB8C4] px-2 py-2 rounded-full text-white cursor-pointer hover:bg-[#598A9B] duration-300 hover:text-lime-400"></i>
                         <i className="fa-regular fa-user bg-[#4CB8C4] px-2 py-2 rounded-full text-white  cursor-pointer hover:bg-[#598A9B] duration-300 hover:text-lime-400"></i>
+                          <i className="fa-solid fa-earth-americas bg-[#4CB8C4] px-2 py-2 rounded-full text-white  cursor-pointer hover:bg-[#598A9B] duration-300 hover:text-lime-400"></i>
+                        <i className="fa-solid fa-bars pho:flex lg:hidden px-2"></i>
+
                     </div>
 
                 </div>

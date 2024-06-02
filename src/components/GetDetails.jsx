@@ -10,8 +10,8 @@ export default function GetDetails() {
     return (
         <div className='Details relative'>
             <div className='   max-w-[1440px] m-auto '>
-                <img className=' absolute top-0 right-0 w-full z-10' src={decor} alt=""/>
-                <div className='absolute z-20 GetDetail top-[49px] py-[17px] px-[47.5px]'>
+                <img className=' absolute top-0 right-0  w-full z-10' src={decor} alt=""/>
+                <div className='absolute z-20 GetDetail px-4 top-[49px] py-[17px] '>
                     <h2 className='flex justify-center lg:text-[36px] pho:text-[25px] uppercase font-bold '>подобрать детали</h2>
                     <p className='flex  justify-center text-center font-bold py-[10px]'>найдите недостающие детали именно на ваше транспортное стредство</p>
                     <div className='flex justify-between w-full gap-[15px]  flex-wrap'>

@@ -1,5 +1,6 @@
 import Header from "../Header.jsx";
 import HomePage from "../pages/HomePage.jsx";
+import Footer from "../Footer.jsx";
 
 
 export default function RootLayout() {
@@ -8,6 +9,7 @@ export default function RootLayout() {
         <div>
             <Header/>
             <HomePage/>
+            <Footer/>
         </div>
     )
 }
