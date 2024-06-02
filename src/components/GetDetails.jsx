@@ -39,22 +39,22 @@ export default function GetDetails() {
                 </div>
 
                 <div className='absolute z-20  justify-center bottom-[-39px] left-[13%] gap-5 overflow-auto pho:hidden xl:flex py-4'>
-                    <div className='w-[250px] text-center bg-white px-[7.5px] py-[29.5px] rounded-lg shadow-lg shadow-[#18A7A7]  ' >
+                    <div className='w-[250px] text-center bg-white px-[7.5px] py-[29.5px] rounded-lg shadow-lg shadow-[#18A7A7]  cursor-pointer hover:bg-slate-200 duration-300 ' >
                         <div className='flex justify-center'><img src={writeList} alt=""/></div>
                         <p>Выбирайте по цене, скорости
                             доставки или расположению</p>
                     </div>
-                    <div className='w-[250px] text-center bg-white px-[7.5px] py-[29.5px] rounded-lg  shadow-lg shadow-[#18A7A7]  '>
+                    <div className='w-[250px] text-center bg-white px-[7.5px] py-[29.5px] rounded-lg  shadow-lg shadow-[#18A7A7] cursor-pointer hover:bg-slate-200 duration-300  '>
                         <div className='flex justify-center'><img src={deleteOil} alt=""/></div>
                         <p>589 837 <br/> запчастей
                             и масел в каталоге</p>
                     </div>
-                    <div className='w-[250px] text-center bg-white px-[7.5px] py-[29.5px] rounded-lg  shadow-lg shadow-[#18A7A7]  '>
+                    <div className='w-[250px] text-center bg-white px-[7.5px] py-[29.5px] rounded-lg  shadow-lg shadow-[#18A7A7]  cursor-pointer hover:bg-slate-200 duration-300 '>
                         <div className='flex justify-center'><img src={humans} alt=""/></div>
                         <p>Средний рейтинг
                             продавцов 4.83 из 5</p>
                     </div>
-                    <div className='w-[250px] text-center bg-white px-[7.5px] py-[29.5px] rounded-lg  shadow-lg shadow-[#18A7A7]  '>
+                    <div className='w-[250px] text-center bg-white px-[7.5px] py-[29.5px] rounded-lg  shadow-lg shadow-[#18A7A7] cursor-pointer hover:bg-slate-200 duration-300 '>
                         <div className='flex justify-center'><img src={Add} alt=""/></div>
                         <p>Подать объявление</p>
                     </div>

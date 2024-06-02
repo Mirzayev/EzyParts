@@ -54,22 +54,22 @@ export default function Header() {
             <div className=' bg-[#F5F5F5] py-[11px] px-3'>
                 <div
                     className='max-w-[1440px] m-auto flex justify-between  gap-[65px] text-center font-semibold overflow-auto pho:whitespace-nowrap lg:whitespace-normal '>
-                    <a className='' href="">Каталог</a>
-                    <a className='mb-4' href="">ТО
+                    <a className=' hover:text-green-400 duration-300' href="">Каталог</a>
+                    <a className='mb-4 hover:text-green-400 duration-300' href="">ТО
                         / фильтра</a>
-                    <a className='mb-4' href="">Тормозная
+                    <a className='mb-4 hover:text-green-400 duration-300' href="">Тормозная
                         система</a>
-                    <a className='mb-4' href="">Двигатель
+                    <a className='mb-4 hover:text-green-400 duration-300' href="">Двигатель
                         / выхлоп</a>
-                    <a className='mb-4' href="">Подвеска
+                    <a className='mb-4 hover:text-green-400 duration-300' href="">Подвеска
                         / рулевое</a>
-                    <a className='mb-4' href="">Коробка
+                    <a className='mb-4 hover:text-green-400 duration-300' href="">Коробка
                         передач</a>
-                    <a className='mb-4' href="">Охлождение
+                    <a className='mb-4 hover:text-green-400 duration-300' href="">Охлождение
                         / отопление</a>
-                    <a className='mb-4' href="">Электрика
+                    <a className='mb-4 hover:text-green-400 duration-300' href="">Электрика
                         / освещение</a>
-                    <a className='mb-4' href="">Кузов
+                    <a className='mb-4 hover:text-green-400 duration-300' href="">Кузов
                         / элементы</a>
                 </div>
 
